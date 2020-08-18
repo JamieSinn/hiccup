@@ -1,0 +1,291 @@
+{
+  "target": {
+    "scope": {
+      "advanced_mode": true,
+      "exclude": [
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^enterprise\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^enterprise\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.github\\.io$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.github\\.io$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^git\\.io$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^git\\.io$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^spectrum\\.chat$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^spectrum\\.chat$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^github\\.blog$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^github\\.blog$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^//forum.*",
+          "host": "^education\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^//forum.*",
+          "host": "^education\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^blog\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^blog\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^community\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^community\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^shop\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^shop\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        }
+      ],
+      "include": [
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^api\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^api\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^gist\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^gist\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^classroom\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^classroom\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.githubapp\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.githubapp\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.github\\.net$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^.*\\.github\\.net$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^education\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^education\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^lab\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^lab\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^jobs\\.github\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^jobs\\.github\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^semmle\\.net$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^semmle\\.net$",
+          "port": "^443$",
+          "protocol": "https"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^semmle\\.com$",
+          "port": "^80$",
+          "protocol": "http"
+        },
+        {
+          "enabled": true,
+          "file": "^/.*",
+          "host": "^semmle\\.com$",
+          "port": "^443$",
+          "protocol": "https"
+        }
+      ]
+    }
+  }
+}
