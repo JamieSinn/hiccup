@@ -43,11 +43,12 @@ func (f *ScopeJsonFile) isInScope(line, pattern string) bool {
 	if err != nil {
 		return false
 	}
-	if re.MatchString(line){
+	if re.MatchString(line) {
 		return true
 	}
 	return false
 }
+
 func (f *ScopeJsonFile) IsWithinScope(line string) bool {
 	for _, v := range f.Target.Scope.Include {
 		if !v.Enabled {
@@ -61,7 +62,7 @@ func (f *ScopeJsonFile) IsWithinScope(line string) bool {
 	return false
 }
 
-func (f *ScopeJsonFile) CheckScope(matchProtocol, invert bool, lines []string) (matched []string){
+func (f *ScopeJsonFile) CheckScope(matchProtocol, invert bool, lines []string) (matched []string) {
 	for _, line := range lines {
 		inScope := false
 		if matchProtocol {
@@ -98,4 +99,3 @@ func ParseFile(file string) (scope ScopeJsonFile, err error) {
 	}
 	return
 }
-

@@ -15,8 +15,8 @@ func TestParseFile(t *testing.T) {
 }
 
 func TestScopeJsonFile_CheckScope(t *testing.T) {
-	inScope := []string {"github.com", "test.githubapp.com", "test.github.net"}
-	outOfScope := []string {"shop.github.com", "agithubapp.com", "enterprise.github.com"}
+	inScope := []string{"github.com", "test.githubapp.com", "test.github.net"}
+	outOfScope := []string{"shop.github.com", "agithubapp.com", "enterprise.github.com"}
 	file, err := ParseFile("testfiles/valid.json")
 	if err != nil {
 		t.Fail()
@@ -60,6 +60,10 @@ func TestScopeJsonFile_IsWithinScopeProtocol(t *testing.T) {
 	if err != nil {
 		t.Fail()
 		return
+	}
+
+	if !file.IsWithinScope("https://github.com") {
+		t.Fail()
 	}
 
 	if file.IsWithinScope("shop.github.com") {
